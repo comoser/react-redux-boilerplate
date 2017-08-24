@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { AppContainer } from 'react-hot-loader';
 import PromiseMiddleware from 'redux-thunk';
 import reducers from './reducers';
@@ -23,7 +24,7 @@ const render = (Component) => {
             <AppContainer>
                 <Router>
                     <Switch>
-                        <Route exact path="/" component={<Component/>}/>
+                        <Route exact path="/" component={Component}/>
                         {
                             /* add other routes here to guarantee
                         only one component is rendered at a time */
