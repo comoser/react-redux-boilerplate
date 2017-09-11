@@ -15,7 +15,7 @@ This boilerplate uses the latest versions of the technologies listed below as of
 - `mocha v3.4.2`
 - `chai v3.5.0`
 - `chai-enzyme v0.8.0`
-- `webpack v3.0.0`
+- `webpack v3.5.6`
 - `webpack-dev-server v2.5.0`
 
 ### Familiar with Git?
